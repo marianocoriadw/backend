@@ -1,45 +1,28 @@
-class   ProductManager{
-    constructor(){
-        this.products = [];
-    }
+// El método test() ejecuta la búsqueda de una ocurrencia entre una expresión regular y una cadena especificada. Devuelve true o false.
 
-    getProducts= () =>{
-        return this.products;
-    }
+let string = 'el perro negro'
+let resultado = (/perro/)
+let valor = resultado.test(string )
+console.log(valor)
 
-    addProduct = (title,description,price, thumbnail,code,stock) => {
-        const product = {
-            title,
-            description,
-            price,
-            thumbnail,
-            code,
-            stock,
-            products : [],
-        }
-        if(this.products.length === 0){
-            product.id = 1
-        }else{
-           product.id = this.products[this.products.length - 1].id + 1;
-        }
+//Para distinguir entre mayusculas o minisculas usarmos /i por ejemplo
+let strings = 'el Perro negro'
+let resultados = (/perro/i)
+let valores = resultados.test(strings)
+console.log(valores)
 
-        this.products.push(product)
 
-    }
+// El método match() devuelve todas las ocurrencias de una expresión regular dentro de una cadena.
 
-    getProductById(id){
-        const productIndex = this.products.findIndex(p => p.id === id)
+let testStr = "Repeat, Repeat, Repeat";
+let ourRegex = /Repeat/;
+testStr.match(ourRegex);
+//Aquí matchvolvería ["Repeat"].
+// Para buscar o extraer un patrón más de una vez, puede usar el indicador de búsqueda global: g.
 
-        if(productoEncontrado === -1){
-            console.log("Not found")
-        }
+let repeatRegex = /Repeat/g;
+testStr.match(repeatRegex);
 
-        const productoEncontrado = this.products[productIndex].products.includes(id)
+// Y aquí matchdevuelve el valor.["Repeat", "Repeat", "Repeat"]
 
-        if(productoEncontrado){
-            console.log("Encontrado")
-        }
-    }
-
-}
-
+//puede tener varias banderas ejemplo let repeatRegex = /Repeat/gi;(g para traer todos , i para distinguir entre minisculas y mayusculas)
