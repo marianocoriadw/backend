@@ -1,0 +1,110 @@
+[
+	{
+		"title": "corven",
+		"description": "corven110",
+		"price": 580000,
+		"thumbnail": "sin imágen",
+		"code": "345",
+		"stock": 36,
+		"id": 1
+	},
+	{
+		"title": "zanella",
+		"description": "zanela 110",
+		"price": 500400,
+		"thumbnail": "sin imágen",
+		"code": "346",
+		"stock": 30,
+		"id": 2
+	},
+	{
+		"title": "zanella",
+		"description": "zanella 150",
+		"price": 1000200,
+		"thumbnail": "sin imágen",
+		"code": "347",
+		"stock": 15,
+		"id": 3
+	},
+	{
+		"title": "zanella",
+		"description": "zanella 200",
+		"price": 12200000,
+		"thumbnail": "sin imagen",
+		"code": "348",
+		"stock": 90,
+		"id": 4
+	},
+	{
+		"title": "Honda",
+		"description": "biz 110",
+		"price": 780000,
+		"thumbnail": "sin imágen",
+		"code": "349",
+		"stock": 50,
+		"id": 5
+	},
+	{
+		"title": "Honda",
+		"description": "cg titan",
+		"price": 1250400,
+		"thumbnail": "sin imágen",
+		"code": "350",
+		"stock": 32,
+		"id": 6
+	},
+	{
+		"title": "Honda",
+		"description": "xr 125",
+		"price": 1500200,
+		"thumbnail": "sin imágen",
+		"code": "351",
+		"stock": 15,
+		"id": 7
+	},
+	{
+		"title": "Honda",
+		"description": "tornado 250",
+		"price": 22200000,
+		"thumbnail": "sin imagen",
+		"code": "352",
+		"stock": 17,
+		"id": 8
+	},
+	{
+		"title": "Honda",
+		"description": "cb 500",
+		"price": 4580000,
+		"thumbnail": "sin imágen",
+		"code": "353",
+		"stock": 8,
+		"id": 9
+	},
+	{
+		"title": "corven",
+		"description": "corven 125",
+		"price": 800400,
+		"thumbnail": "sin imágen",
+		"code": "354",
+		"stock": 29,
+		"id": 10
+	},
+	{
+		"title": "corven",
+		"description": "corven 150",
+		"price": 1200200,
+		"thumbnail": "sin imágen",
+		"code": "355",
+		"stock": 15,
+		"id": 11
+	},
+	{
+		"title": "corven",
+		"description": "corven 200",
+		"price": 12500000,
+		"thumbnail": "sin imagen",
+		"code": "356",
+		"stock": 90,
+		"id": 12
+	}
+]

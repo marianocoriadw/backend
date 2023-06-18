@@ -175,8 +175,8 @@ const modificar = async() => {
 
 }
 
-agregarProductos()
+//agregarProductos()
 //traerProductos()
-// productosId()
+ //productosId()
 //deleteProductos()
-modificar()
+//modificar()
