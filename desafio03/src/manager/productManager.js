@@ -8,36 +8,34 @@ export default class ProductManager{
         
     }
     //metodo para agregar productos
-    async addProduct (title, description, price, thumbnail,code,stock) {
+    async addProduct ({title, description, price, thumbnail,code,stock,category,id , status}) {
      try{
         const product = {
+            id,
+            status,
             title,
             description,
             price,
             thumbnail,
             code,
             stock,
+            category
         }
         const products = await this.getProducts()
-        if (products.length === 0){
-            product.id = 1
-        } else {
-            product.id = products [products.length-1 ].id + 1
-        }
+      
         const verificar = products.find(product => product.code === code)
-    
-        if(title && description && price && thumbnail && code && stock !== undefined && !verificar){
-              
+    /*title && description && price && thumbnail && code && stock && category !== undefined && */
+        if(!verificar){
+        console.log(product)
         products.push(product)
         
-       await fs.promises.writeFile(this.path, JSON.stringify(products, null ,'\t'))
-            
-    
-        }else{
+        await fs.promises.writeFile(this.path, JSON.stringify(products, null ,'\t'))
+        }
+        else{
            console.log('not found')
         }
     }
-     catch(error){
+    catch(error){
         console.log(error)
 
 }

@@ -3,108 +3,121 @@
 		"title": "corven",
 		"description": "corven110",
 		"price": 580000,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "345",
 		"stock": 36,
-		"id": 1
+		"category": "motos",
+		"id": 1,
+		"status": true
 	},
 	{
 		"title": "zanella",
 		"description": "zanela 110",
 		"price": 500400,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "346",
 		"stock": 30,
-		"id": 2
+		"category": "motos",
+		"id": 2,
+		"status": true
 	},
 	{
 		"title": "zanella",
 		"description": "zanella 150",
 		"price": 1000200,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "347",
 		"stock": 15,
-		"id": 3
+		"category": "motos",
+		"id": 3,
+		"status": true
 	},
 	{
 		"title": "zanella",
 		"description": "zanella 200",
 		"price": 12200000,
-		"thumbnail": "sin imagen",
+		"thumbnail": [],
 		"code": "348",
 		"stock": 90,
-		"id": 4
+		"category": "motos",
+		"id": 4,
+		"status": true
 	},
 	{
 		"title": "Honda",
 		"description": "biz 110",
 		"price": 780000,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "349",
 		"stock": 50,
-		"id": 5
+		"category": "motos",
+		"id": 5,
+		"status": true
 	},
 	{
 		"title": "Honda",
 		"description": "cg titan",
 		"price": 1250400,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "350",
 		"stock": 32,
-		"id": 6
+		"category": "motos",
+		"id": 6,
+		"status": true
 	},
 	{
 		"title": "Honda",
 		"description": "xr 125",
 		"price": 1500200,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "351",
 		"stock": 15,
-		"id": 7
+		"category": "motos",
+		"id": 7,
+		"status": true
 	},
 	{
 		"title": "Honda",
 		"description": "tornado 250",
 		"price": 22200000,
-		"thumbnail": "sin imagen",
+		"thumbnail": [],
 		"code": "352",
 		"stock": 17,
-		"id": 8
+		"category": "motos",
+		"id": 8,
+		"status": true
 	},
 	{
 		"title": "Honda",
 		"description": "cb 500",
 		"price": 4580000,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "353",
 		"stock": 8,
-		"id": 9
+		"category": "motos",
+		"id": 9,
+		"status": true
 	},
 	{
 		"title": "corven",
 		"description": "corven 125",
 		"price": 800400,
-		"thumbnail": "sin imágen",
+		"thumbnail": [],
 		"code": "354",
-		"stock": 29,
-		"id": 10
+		"stock": 20,
+		"category": "motos",
+		"id": 10,
+		"status": true
 	},
 	{
+		"id": 11,
+		"status": true,
 		"title": "corven",
-		"description": "corven 150",
-		"price": 1200200,
-		"thumbnail": "sin imágen",
-		"code": "355",
-		"stock": 15,
-		"id": 11
-	},
-	{
-		"title": "corven",
-		"description": "corven 200",
-		"price": 12500000,
-		"thumbnail": "sin imagen",
-		"code": "356",
-		"stock": 90,
-		"id": 12
+		"description": "corven 125",
+		"price": 800400,
+		"thumbnail": [],
+		"code": "545822",
+		"stock": 20,
+		"category": "motos"
 	}
 ]
